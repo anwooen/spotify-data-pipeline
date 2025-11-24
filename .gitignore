@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.pyc
+
+# for secrets!
+config.py
+
+# spotify api!
+.cache
+
+# virtual env
+env/
+
+# generated data
+*.db
+
+# not important OS data
+.DS_Store
