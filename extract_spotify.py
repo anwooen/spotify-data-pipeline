@@ -16,4 +16,4 @@ if __name__ == "__main__":
         played_at = item["played_at"]
         track = item["track"]
         artist = track["artists"][0]["name"]
-        print(played_at, "--", track["name"], "written by", artist)
+        print(played_at, "--", track["name"], " by", artist)
