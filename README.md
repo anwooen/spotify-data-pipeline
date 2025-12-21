@@ -283,3 +283,7 @@ print(df_days)
 ## License
 
 This project is provided under the MIT License.
+
+
+## ATTRIBUTION
+ChatGPT assisted me with the generation of this README.
