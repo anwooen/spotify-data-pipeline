@@ -27,9 +27,9 @@ def transform_recently_played(items):
             "artist_name": artist["name"]
         })
 
-        plays_df = pd.DataFrame(plays)
-        tracks_df = pd.DataFrame(tracks).drop_duplicates(subset=["track_id"])
-        artists_df = pd.DataFrame(artists).drop_duplicates(subset=["artist_id"])
+    plays_df = pd.DataFrame(plays)
+    tracks_df = pd.DataFrame(tracks).drop_duplicates(subset=["track_id"])
+    artists_df = pd.DataFrame(artists).drop_duplicates(subset=["artist_id"])
 
     # watch indentation smh
     return plays_df, tracks_df, artists_df
