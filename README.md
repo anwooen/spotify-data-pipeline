@@ -270,8 +270,8 @@ print(df_days)
 
 ## Potential Future Additions
 
-* Correcting the indentation in `transform.py` so DataFrames are built after the loop
-* Adding deduplication logic to `load.py` to avoid repeated inserts
+* Correcting the indentation in `transform.py` so DataFrames are built after the loop (Fixed)
+* Adding deduplication logic to `load.py` to avoid repeated inserts (Fixed)
 * Adding error handling for extraction failures
 * Improving the extraction function with safer `.get()` lookups
 * Adding logging for better observability
